@@ -62,7 +62,7 @@ a{
 }
 a:hover{
 
-	color:rgb(237,45,58) !important;
+	color:rgb(255,255,255) !important;
 	text-decoration:none;
 }
 hr{
@@ -125,6 +125,7 @@ input, textarea{
 .text-upper{
 	text-transform:uppercase;
 }
+.text-big{font-size: 30px}
 .line-gray{
 	border-top: 1px solid #404040;
 }
@@ -673,7 +674,7 @@ a{
 	
 }
 a:hover{
-	color:rgb(237,45,58) !important;
+	color:rgb(255,255,255) !important;
 	text-decoration:none;
 }
 hr{
