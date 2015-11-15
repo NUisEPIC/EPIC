@@ -1246,3 +1246,32 @@ input, textarea{
   -o-background-size: cover;
   background-size: cover;
 }
+
+/*
+ * Custom styles
+ */
+
+.newsletter-signup {
+  padding-top: 20px;
+}
+
+.newsletter-signup .col-md-6 {
+  background: white;
+  padding-top: 10px;
+}
+
+.newsletter-signup .col-md-6 h3 {
+  margin: 0;
+}
+
+.newsletter-signup .row + .row .col-md-6 {
+  background: white;
+  padding-bottom: 25px;
+}
+
+.newsletter-signup .col-md-6 a {
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  left: 17px;
+}
