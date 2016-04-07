@@ -22,6 +22,28 @@ body{
   line-height:28px;
 
 }
+
+#apply-btn {
+    width: 100%;
+    appearance: none;
+    border: none;
+    background: #fff;
+    padding: 40px 30px;
+    color: #33004b;
+    font-family: inherit;
+    font-size: 2.5em;
+    border-radius: 2px;
+    border-bottom: 5px solid #bfbfbf;
+    text-decoration: none;
+    line-height: 1.2em;
+}
+
+@media all and (max-width:460px) {
+  #apply-btn {
+    padding: 20px 30px;
+    font-size: 2em;
+  }
+}
 /* ========================================================
    0B.TYPOGRAPHY-MOBILE
 =========================================================== */
